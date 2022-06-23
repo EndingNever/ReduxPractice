@@ -4,7 +4,7 @@ import Auth from './components/Auth'
 import Header from "./components/Header"
 import UserProfile from "./components/UserProfile"
 import { useSelector, useDispatch } from 'react-redux';
-import { authActions } from './store';
+import { authActions } from './store/auth';
 
 function App() {
   const isAuth = useSelector(state => state.auth.isAuthenticated);
