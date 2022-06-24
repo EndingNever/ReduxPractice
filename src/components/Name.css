@@ -7,3 +7,15 @@
   text-align: center;
   background-color: #f4f0fa;
 }
+
+.profile h2{
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.profile button {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
