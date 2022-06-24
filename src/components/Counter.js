@@ -20,8 +20,9 @@ const Counter = () => {
   }
 
   const toggleCounterHandler = () => { 
-    dispatch(counterActions.toggleCounter)
+    dispatch(counterActions.toggleCounter());
   };
+
 
   return (
     <main className={classes.counter}>
